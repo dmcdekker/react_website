@@ -1,9 +1,18 @@
 .App {
-  margin-top: 15px;
+  margin-top: 1em;
+  
 }
 
 .App .navbar-brand {
-  font-weight: bold;
+  font-weight: normal;
+}
+
+.navbar-default {
+    background-color: white;
+    border-color: white;
+    background-image: none;
+    border: none !important;
+    box-shadow: none !important;
 }
 
 .App-photo {
