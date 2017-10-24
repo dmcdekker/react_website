@@ -1,5 +1,8 @@
 .App {
-  margin-top: 1em;
+  margin: 0;
+  padding: .5em;
+  margin-left: auto;
+  margin-right: auto;
   
 }
 
@@ -33,4 +36,35 @@
 
 h2{
   color: #000000;
+}
+
+@media screen and (max-width: 767px) {
+    body {
+        font-size: 0.8em;
+    }
+    .container{
+        width:90%;
+    }
+    
+}
+
+/* sm */
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 1.2em;
+    }
+}
+
+/* md */
+@media screen and (min-width: 992px) {
+    body {
+        font-size: 1.4em;
+    }
+}
+
+/* lg */
+@media screen and (min-width: 1200px) {
+    body {
+        font-size: 1.6em;
+    }
 }

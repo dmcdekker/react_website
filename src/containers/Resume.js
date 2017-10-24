@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import './Work.css';
+import './Resume.css';
 
 
-class Work extends Component {
+class Resume extends Component {
   render() {
     return (
       <div className="App">
         <div className="col-md-12 text-center">
-          <h1>Work</h1>
+          <h1>Resume</h1>
         </div>
        
       </div>
@@ -15,4 +15,4 @@ class Work extends Component {
   }
 }
 
-export default Work;
+export default Resume;
