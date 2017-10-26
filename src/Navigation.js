@@ -1,13 +1,15 @@
-import React from 'react';
+import React, { Component } from "react";
+import "./App.css";
 import { Link } from "react-router-dom";
-import { Nav, Navbar} from "react-bootstrap";
+import { Nav, Navbar } from "react-bootstrap";
 import RouteNavItem from "./components/RouteNavItem";
 
-export default class Footer extends React.Component {
+class Navigation extends Component {
+
   render() {
     return (
-      <Navbar fluid collapseOnSelect>
-          <Navbar.Header>
+      <Navbar fixedTop collapseOnSelect>
+          <Navbar.Header autoFocus>
             <Navbar.Brand>
               <Link to="/">Denise M. Dekker</Link>
             </Navbar.Brand>
@@ -18,8 +20,10 @@ export default class Footer extends React.Component {
               <RouteNavItem href="/work">Work</RouteNavItem>
               <RouteNavItem href="/resume">Resume</RouteNavItem>
             </Nav>
-        </Navbar.Collapse>
+          </Navbar.Collapse>
       </Navbar>
     );
   }
 }
+
+export default Navigation;

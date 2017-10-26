@@ -1,26 +1,12 @@
 .App {
-  margin: 0;
+  margin-top: 1em;
   padding: .5em;
   margin-left: auto;
   margin-right: auto;
-  
 }
 
 .App .navbar-brand {
   font-weight: normal;
-}
-
-.navbar-default {
-    background-color: white;
-    border-color: white;
-    background-image: none;
-    border: none !important;
-    box-shadow: none !important;
-}
-
-.App-photo {
-  margin: 1em;
-  height: 30em;
 }
 
 .App-header {
@@ -34,8 +20,49 @@
   font-size: large;
 }
 
+.App-photo {
+  margin: 1em;
+  height: 30em;
+}
+
+
 h2{
   color: #000000;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:active{
+    border-bottom: 3.5px solid #0caed6;
+}
+
+.navbar-default {
+    background-color: white;
+    border-color: white;
+    background-image: none;
+    border: none !important;
+    box-shadow: none !important;
+    padding-bottom: .6em;
+}
+
+.navbar-default .navbar-nav >.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    background-color: white;
+    border-color: white;
+    background-image: none;
+    box-shadow: none !important;
+    background: white !important;
+    border-bottom: 3.5px solid #0caed6;
+}
+
+
+ul.nav a:hover { 
+    background-color: transparent;
+}
+
+footer{
+    margin-top: 5%;
+}
+
+NavItem{
+    margin: .1em;
 }
 
 @media screen and (max-width: 767px) {
@@ -45,7 +72,6 @@ h2{
     .container{
         width:90%;
     }
-    
 }
 
 /* sm */
@@ -65,6 +91,6 @@ h2{
 /* lg */
 @media screen and (min-width: 1200px) {
     body {
-        font-size: 1.6em;
+        font-size: 2em;
     }
 }

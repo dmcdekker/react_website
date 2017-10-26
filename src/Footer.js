@@ -1,4 +1,5 @@
 import React from 'react';
+import "./App.css";
 import Grid from 'react-bootstrap/lib/Grid';
 import {Nav, NavItem} from "react-bootstrap";
 import FontAwesome from 'react-fontawesome';
@@ -8,7 +9,6 @@ export default class Footer extends React.Component {
   render() {
     return (
       <Grid>
-       
         <footer>
             <Nav justified>
               <NavItem
@@ -22,7 +22,7 @@ export default class Footer extends React.Component {
                 <FontAwesome name="linkedin" />
               </NavItem>
               <NavItem
-                eventKey={1}
+                eventKey={3}
                 href="http://twitter.com/dmcdekker" target="_blank">
                 <FontAwesome name="instagram" />
               </NavItem>
