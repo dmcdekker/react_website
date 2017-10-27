@@ -1,0 +1,24 @@
+[
+{
+	"img": "https://res.cloudinary.com/dmcdekker/image/upload/c_scale,h_432,w_648/v1504041011/jim_card2_dkl0op.png",
+	"name": "Jim Granato",
+	"type": "Web Development",
+	"id": "1"
+},
+
+{
+	"img": "https://res.cloudinary.com/dmcdekker/image/upload/c_scale,h_432,w_648/v1492138087/Screen_Shot_2017-04-13_at_3.45.21_PM_qpr2vu.png",
+	"name": "4Bells",
+	"type": "Product Dev/UX/UI Design",
+	"id": "2"
+},    
+{
+	"img": "https://res.cloudinary.com/dmcdekker/image/upload/c_scale,h_432,w_648/v1493701540/denise_website_ugrf8p.png",
+	"name": "dmdekker.io",
+	"type": "Web Development",
+	"id": "3"
+}
+]
+
+
+    

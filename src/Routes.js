@@ -3,7 +3,7 @@ import { Route, Switch } from "react-router-dom";
 import Home from "./containers/Home";
 import Work from "./containers/Work";
 import Resume from "./containers/Resume";
-import NotFound from "./containers/NotFound"
+import NotFound from "./containers/NotFound";
 
 export default () =>
   <Switch>
