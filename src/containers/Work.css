@@ -1,13 +1,22 @@
-.card-body{
-    border: solid 1px black;
-}
-
 img{
-    border-top: solid 1px black;
-    border-left: solid 1px black;
-    border-right: solid 1px black;
+    border-top: solid 1px #cccccc;
+    border-left: solid 1px #cccccc;
+    border-right: solid 1px #cccccc;
 }
 
+.card-body{
+    border: solid 1px #cccccc;
+    margin-bottom: 2em;
+}
+
+Button{
+  background-color: white; 
+  margin-bottom: 1em;
+}
+
+Button:focus, Button:active {
+    outline:0;
+}
 
 
 

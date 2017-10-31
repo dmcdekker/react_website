@@ -1,0 +1,70 @@
+import React, { Component } from 'react';
+import './Work.css';
+import card from './cards.json';
+import { Card, CardImg, CardBody, Col, CardTitle,
+  CardSubtitle, Button, CardDeck } from 'reactstrap';
+import { Link } from "react-router-dom";
+
+
+class WorkMain extends Component{
+  constructor(props){
+	super(props);
+	  this.state= {
+        cards: card
+	  }
+	}
+	
+  render() {
+        return (
+        <div className="App">  
+          <CardDeck id="carddeck">
+            <div>
+              {this.state.cards.map((card => (
+              <Card id="card" key={card.id}>
+                <Col md="4">
+                  <CardImg id="cardimg" top width="100%" alt="Card image cap" src={card.img} />
+                  <CardBody className="text-center">
+                    <CardTitle id="cardtitle" className="text-center" key={card.cardtitle}>{card.name}</CardTitle>
+                    <CardSubtitle id="cardsubtitle">{card.type}</CardSubtitle>
+                    <Button><Link to={`/work/${card.link}`}>Read More</Link></Button>
+                  </CardBody>
+                </Col>   
+              </Card>     
+                )))}
+            </div>
+          </CardDeck>
+        </div>  
+        );
+    }
+}
+
+
+export default WorkMain;
+
+import React, {Component} from 'react';
+import './Work.css';
+import workpage from './workpages.json';
+
+class WorkPage extends Component{
+  constructor(props){
+	super(props);
+	  this.state= {
+        workpages: workpage
+	  }
+	}
+	
+  render() {
+        return (
+        <div className="App">  
+            <div>
+              {this.state.workpages.map((workpage => (
+              <h1 id="workpage" key={workpage.link}>
+              <p id="cardsubtitle">Name:{workpage.name}</p></h1>
+                )))}
+            </div>
+        </div>  
+        );
+    }
+}
+
+export default WorkPage;

@@ -12,15 +12,16 @@ body {
   color: #333;
 }
 
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto";
-  color: #404040;
+  color: #262626;
   letter-spacing: 2px;
 }
 
 p{
   font-family: "Open Sans", sans-serif;
-  color: #404040;
+  color: #262626;
   font-weight: 100;
 }
 
@@ -79,7 +80,7 @@ p{
 /* On hover, we get it back to its basic spot
   left:0;
 /* And change the opacity to a fully visible one */
-  opacity: 1;
+  opacity: .2;
 }
 
 select.form-control,

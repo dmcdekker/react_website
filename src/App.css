@@ -1,7 +1,7 @@
 .App {
-  margin-top: 2em;
-  padding: .5em;
-  width: 90%;
+  margin-top: 4em;
+  padding: 0;
+  width: 85%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -53,6 +53,12 @@ h2{
     border-bottom: 3.5px solid #0caed6;
 }
 
+.navbar-collapse {
+  background-color: white;
+  width: 20%;
+  float: right;
+}
+
 
 ul.nav a:hover { 
     background-color: transparent;
@@ -60,6 +66,17 @@ ul.nav a:hover {
 
 footer{
     margin-top: 5%;
+}
+
+wrapper {
+	min-height: 100%;
+	height: auto !important; /* This line and the next line are not necessary unless you need IE6 support */
+	height: 100%;
+	margin: 0 auto -155px; /* the bottom margin is the negative value of the footer's height */
+}
+
+footer, .push {
+	height: 155px; /* .push must be the same height as .footer */
 }
 
 NavItem{

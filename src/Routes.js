@@ -1,14 +1,22 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
 import Home from "./containers/Home";
-import Work from "./containers/Work";
+import WorkList from "./containers/WorkList";
+import WorkPage from "./containers/WorkPage";
 import Resume from "./containers/Resume";
-import NotFound from "./containers/NotFound";
+import data from './data';
 
-export default () =>
-  <Switch>
-    <Route path="/" exact component={Home} />
-    <Route path="/work" exact component={Work} />
-    <Route path="/resume" exact component={Resume} />
-    <Route component={NotFound} />
-  </Switch>;
+
+
+const Routes = () => (
+  <main>
+    <Switch>
+      <Route exact path="/" component={Home} />
+        <Route path="/work" exact component={WorkList} data={data} />
+          <Route path='/work/:link' component={WorkPage} data={data}/>
+        <Route path="/resume" exact component={Resume} />
+    </Switch>
+  </main>
+)
+
+export default Routes;

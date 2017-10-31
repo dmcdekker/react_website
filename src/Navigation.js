@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 import "./App.css";
 import { Link } from "react-router-dom";
-import { Nav, Navbar } from "react-bootstrap";
-import RouteNavItem from "./components/RouteNavItem";
+import { Nav, Navbar, NavItem } from "react-bootstrap";
 
 class Navigation extends Component {
 
   render() {
     return (
+     <div>  
       <Navbar fixedTop collapseOnSelect>
           <Navbar.Header autoFocus>
             <Navbar.Brand>
@@ -17,11 +17,15 @@ class Navigation extends Component {
           </Navbar.Header>
           <Navbar.Collapse>
             <Nav pullRight>
-              <RouteNavItem href="/work">Work</RouteNavItem>
-              <RouteNavItem href="/resume">Resume</RouteNavItem>
+              <NavItem><Link to="/work">Work</Link></NavItem>
+              <NavItem><Link to="/resume">Resume</Link></NavItem>
             </Nav>
           </Navbar.Collapse>
       </Navbar>
+      <div className="container">
+        {this.props.children}
+      </div>
+    </div>  
     );
   }
 }
