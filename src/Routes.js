@@ -1,20 +1,19 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
 import Home from "./containers/Home";
-import WorkList from "./containers/WorkList";
-import WorkPage from "./containers/WorkPage";
+import Work from "./containers/Work";
 import Resume from "./containers/Resume";
-import data from './data';
-
+import NotFound from "./containers/NotFound";
 
 
 const Routes = () => (
   <main>
     <Switch>
       <Route exact path="/" component={Home} />
-        <Route path="/work" exact component={WorkList} data={data} />
-          <Route path='/work/:link' component={WorkPage} data={data}/>
-        <Route path="/resume" exact component={Resume} />
+      <Route path="/work" component={Work} />
+      <Route path="/resume" component={Resume} />
+      <Route path="/notfound" component={NotFound} />
+      
     </Switch>
   </main>
 )

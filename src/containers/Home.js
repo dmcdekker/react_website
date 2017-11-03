@@ -23,7 +23,7 @@ export default class Home extends Component {
             </p>
                      
           <p className="App-intro-long">I’m passionate about the convergence of design, accessibility, and user experience; my professional goal is to work in a role that utilizes my varied skill set.
-          I believe that everyone should have an exceptional and joyful experience with web and mobile technologies, and am especially inspired to craft solutions that create equity in access and functionality. 
+          I believe that everyone should have exceptional, joyful experiences with web and mobile technologies, and I'm especially inspired to craft solutions that create equity in access and functionality. 
           Check out my work page! I have worked on a variety of projects as a developer and UX/UI designer. </p>
              
           <p className="App-intro-long">When I'm not working on projects, I'm an avid chef, produce geek, and sometime DJ for fundraising events at my daughter's school.</p>

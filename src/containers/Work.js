@@ -1,16 +1,14 @@
 import React from 'react';
-import { connect } from 'react-redux';
+import { Switch, Route } from 'react-router-dom'
 import WorkList from './WorkList';
+import WorkPage from './WorkPage';
 
-const Work = ({ work }) => 
-  <div>
-    <WorkList work={work} />
-  </div>;
+const Work = () => (
+  <Switch>
+    <Route exact path='/work' component={WorkList}/>
+    <Route path='/work/:link' component={WorkPage}/>
+  </Switch>
+)
 
-const mapStateToProps = (state) => {
-  return {
-    work: state.work
-  };
-}
 
-export default connect(mapStateToProps)(Work);
+export default Work;

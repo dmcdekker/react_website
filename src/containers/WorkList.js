@@ -1,42 +1,34 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './Work.css';
-import data from '../data';
+import '../App.css';
+import data from '../data.js';
 import { Card, CardImg, CardBody, Col, CardTitle,
-  CardSubtitle, Button, CardDeck } from 'reactstrap';
+  CardSubtitle, CardDeck } from 'reactstrap';
 import { Link } from "react-router-dom";
+import FontAwesome from 'react-fontawesome';
 
-
-class WorkMain extends Component{
-  constructor(props){
-	super(props);
-	  this.state= {
-        data: data
-	  }
-	}
-	
-  render() {
-        return (
-        <div className="App">  
-          <CardDeck id="carddeck">
-            <div>
-              {this.state.data.map((data => (
-              <Card id="card" key={data.number}>
-                <Col md="4">
-                  <CardImg id="cardimg" top width="100%" alt="Card image cap" src={data.img} />
-                  <CardBody className="text-center">
-                    <CardTitle id="cardtitle" className="text-center" key={data.cardtitle}>{data.name}</CardTitle>
-                    <CardSubtitle id="cardsubtitle">{data.type}</CardSubtitle>
-                    <Button><Link to={`/work/${data.link}`}>Read More</Link></Button>
-                  </CardBody>
-                </Col>   
-              </Card>     
-                )))}
-            </div>
-          </CardDeck>
-        </div>  
-        );
-    }
-}
-
-
-export default WorkMain;
+const WorkList = () => (
+    <div className="App">
+      <div>
+       <FontAwesome name="arrow-left" /><Link className="link" to='/'> Back</Link>
+      </div>
+      <div>
+       {data.all().map(p => (
+         <CardDeck id="carddeck" key={p.number}>
+          <Card id="card">
+            <Col md="4">
+                <CardImg id="cardimg" top width="100%" alt="Card image cap" src={p.img} />
+                <CardBody className="text-center">
+                  <CardTitle id="cardtitle" className="text-center">{p.name}</CardTitle>
+                  <CardSubtitle id="cardsubtitle">{p.type}</CardSubtitle>
+                  <Link className="link" to={`/work/${p.link}`}>More</Link>
+                </CardBody>
+            </Col>   
+          </Card>     
+      </CardDeck>
+      ))}
+     </div>  
+    </div>  
+);
+  
+export default WorkList;

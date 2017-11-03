@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./App.css";
 import { Link } from "react-router-dom";
 import { Nav, Navbar, NavItem } from "react-bootstrap";
+import { LinkContainer } from 'react-router-bootstrap';
 
 class Navigation extends Component {
 
@@ -11,19 +12,22 @@ class Navigation extends Component {
       <Navbar fixedTop collapseOnSelect>
           <Navbar.Header autoFocus>
             <Navbar.Brand>
-              <Link to="/">Denise M. Dekker</Link>
+              <Link to="/">DENISE M. DEKKER</Link>
             </Navbar.Brand>
             <Navbar.Toggle />
           </Navbar.Header>
           <Navbar.Collapse>
             <Nav pullRight>
-              <NavItem><Link to="/work">Work</Link></NavItem>
-              <NavItem><Link to="/resume">Resume</Link></NavItem>
+              <LinkContainer to="/work">
+                <NavItem eventKey={1}>WORK</NavItem>
+              </LinkContainer>
+              <LinkContainer to="/resume">
+              <NavItem eventKey={2}>RESUME</NavItem>
+              </LinkContainer>
             </Nav>
           </Navbar.Collapse>
       </Navbar>
       <div className="container">
-        {this.props.children}
       </div>
     </div>  
     );
