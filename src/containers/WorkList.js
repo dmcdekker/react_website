@@ -1,7 +1,7 @@
 import React from 'react';
 import './Work.css';
 import '../App.css';
-import data from '../data.js';
+import data from './data.js';
 import { Card, CardImg, CardBody, Col, CardTitle,
   CardSubtitle, CardDeck } from 'reactstrap';
 import { Link } from "react-router-dom";

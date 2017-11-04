@@ -10,13 +10,15 @@ const data = {
 	challenges: "For the portfolio, which is a lightbox, there was a problem with the embedded video content not closing completely; unfortunately, the sound would continue to play and the only way to stop it was to refresh the browser. After some research, I added some javascript to completely close the modal. Also with the modal, I couldn't figure out how to keep the focus on the menu items on the portfolio page; apparently it's a known problem with modals (it's also an accessibility issue).",
 	tools: "Node.js, Express, Bootstrap, jQuery",
 	result: "I'm happy with the final result, appearance, and functionality. My next goal is to make a template for the portfolio page, as there's way too much code in there (currently learning React!).",
-	images: [
-    	"./images/jim_home.png",
-		"./images/jim_portfolio.png",
-		"./images/jim_openmodal.png",
+	pageimg:
+		["../images/jim_home.png",
+		 "../images/jim_portfolio.png",
+		 "../images/jim_openmodal.png",
 		"../images/jim_dtour.png"
-    			],
-	site: "http://www.jimgranato.com/"
+		
+		],
+	site: "http://www.jimgranato.com/",
+	id: 1
 },
 
 {
@@ -36,7 +38,8 @@ const data = {
 		  img4: ""
 		}
 		],
-	site: ""	
+	site: "",
+	id: 2	
 }, 
 
 {
@@ -49,13 +52,15 @@ const data = {
 	challenges: "While making the main static pages, there was a flickering (sometimes known as FOUC: Flash Of Unstyled Content) that was hard to troubleshoot. After poking around on Stackoverflow and trying many unsuccessful remedies, I found a solution that recommended removing Turbolinks from my Rails application. More information regarding Turbolinks can be found here. Formatting for mobile also presented challenges, but Bootstrap's responsive features made styling for multiple devices easy. Additionally, the maps page could be improved upon; the Leaflet map could run more efficiently, but I haven't yet been able to make the markers cluster work on Rails.",
 	tools: "Ruby on Rails, CSS, HTML5, Cloud 9, Heroku, and Bootstrap.",
 	result: "I'm happy with the final result; it conveys a good sense of my aesthetic and showcases my emerging developer sensibilities and skillset. Press the button below to connect to my GitHub repository for this project.",
-	pageimgs : [
-		"../images/jim_home.png",
-		"../images/jim_portfolio.png",
-		"../images/jim_openmodal.png",
-		"../images/jim_dtour.png"
-	],
-	site: ""
+	pageimg: [
+		{ img1: "",
+		  img2: "",
+		  img3: "",
+		  img4: ""
+		}
+		],
+	site: "",
+	id: 3
 },
 
 {
@@ -75,7 +80,8 @@ const data = {
 		  img4: ""
 		}
 		],
-	site: ""	
+	site: "",
+	id: 4	
 },
 
 {
@@ -89,13 +95,14 @@ const data = {
 	tools: "MongoDB, Express, Angular, Node.js, CSS, Jade, Cloud 9, Bootstrap, and Heroku, plus the Agile process to plan and develop our site.",
 	result: "",
 	pageimg: [
-		{ img1: "../images/citizens_login.png",
-		  img2: "../images/citizens_findcongress.png",
-		  img3: "../images/citizens_post.png",
-		  img4: "../images/citizens_upcoming.png"
+		{ img1: "",
+		  img2: "",
+		  img3: "",
+		  img4: ""
 		}
 		],
-	site: ""	
+	site: "",
+	id: 5	
 },
 
 {
@@ -115,7 +122,8 @@ const data = {
 		  img4: ""
 		}
 		],
-	site: ""
+	site: "",
+	id: 6
 },
 
 {
@@ -135,7 +143,8 @@ const data = {
 		  img4: ""
 		}
 		],
-	site: ""	
+	site: "",
+	id: 8	
 },
 
 {
@@ -164,7 +173,8 @@ const data = {
 		  img4: ""
 		}
 		],
-	site: ""	
+	site: "",
+	id: 9	
 }
 ],
   all: function() { return this.workcards},
@@ -173,6 +183,7 @@ const data = {
     return this.workcards.find(isWorkCard)
   }
 }
+
 
 export default data;
 
