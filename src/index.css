@@ -8,7 +8,7 @@ body {
   margin: 0;
   padding-top: 2em;
   font-family: "Montserrat", sans-serif;
-  font-size: 1.6em;
+  font-size: 1.7em;
   color: #333;
 }
 
@@ -80,7 +80,7 @@ p{
 /* On hover, we get it back to its basic spot
   left:0;
 /* And change the opacity to a fully visible one */
-  opacity: .2;
+  opacity: .3;
 }
 
 select.form-control,

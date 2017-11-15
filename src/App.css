@@ -1,5 +1,5 @@
 .App {
-  margin-top: 1.5em;
+  margin-top: 3em;
   padding: 0;
   width: 85%;
   margin-left: auto;
@@ -19,6 +19,7 @@
 
 .App-intro {
   font-size: large;
+  width: 85%;
 }
 
 .App-photo {

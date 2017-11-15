@@ -9,13 +9,13 @@ const data = {
 	project: "As an independent filmmaker, Jim wanted an updated, more modern looking site that presented his work using clean and organized design. He wanted to curate his best work on the website, so he could use it as an online professional resume. To give users, and potential customers, a more directed experience, I grouped his work by jQuery tags.",
 	challenges: "For the portfolio, which is a lightbox, there was a problem with the embedded video content not closing completely; unfortunately, the sound would continue to play and the only way to stop it was to refresh the browser. After some research, I added some javascript to completely close the modal. Also with the modal, I couldn't figure out how to keep the focus on the menu items on the portfolio page; apparently it's a known problem with modals (it's also an accessibility issue).",
 	tools: "Node.js, Express, Bootstrap, jQuery",
-	result: "I'm happy with the final result, appearance, and functionality. My next goal is to make a template for the portfolio page, as there's way too much code in there (currently learning React!).",
+	result: "I'm happy so far with the result, appearance, and functionality. We worked to get a MVP up (so Jim could have something to show prospective clients) and I'm currently working on making a template for the portfolio page, plus adding a blog and CMS so Jim can update the site on his own.",
 	pageimg:
-		["../images/jim_home.png",
+		[
+		"../images/jim_home.png",
 		 "../images/jim_portfolio.png",
 		 "../images/jim_openmodal.png",
 		"../images/jim_dtour.png"
-		
 		],
 	site: "http://www.jimgranato.com/",
 	id: 1
@@ -27,16 +27,16 @@ const data = {
 	type: "Product Dev/UX/UI Design",
 	link: "4Bells",
 	number: 7,
-	project: "4Bells is a first responder mobile application from Caravan Studios. 4Bells matches volunteers with time-sensitive tasks, like delivering important documents, picking up a dog from the pound, or deploying volunteers after a disaster. It enables group leaders to connect easily with volunteers, create tasks, and monitor who has signed up to complete tasks. As the Product Developer intern, my job was to redesign the UI and improve app functionality. In addition, Caravan Studios wanted the app to incorporate web accessibility features. ",
+	project: "4Bells is a first responder mobile application from Caravan Studios. 4Bells matches volunteers with time-sensitive tasks, like delivering important documents, picking up a dog from the pound, or deploying volunteers after a disaster. It enables group leaders to connect easily with volunteers, create tasks, and monitor who has signed up to complete tasks. As the Product Developer intern, my job was to redesign the UI and improve app functionality. In addition, Caravan Studios wanted the app to incorporate web accessibility features without changing the back end. ",
 	challenges: "Because the color palette was already established, working with accessibility guidelines for the first time was challenging. During the design process, I had to figure out how to keep the original colors while simultaneously allowing for sufficent contrast. Unfortunately, many of the colors had to change to meet WCAG guidelines; fortunately, the WCAG website has many wonderful tools that make selecting the right contrast easy. One of the ways I resolved not having to radically change the design was to put a box with a lighter color around text areas. Also, Adobe XD does not allow for global changes to color, so when a color needed to be changed, every item had to be changed.",
 	tools: "Adobe XD, Axure.",
-	result: "Something about the result",
+	process: "",
+	result: "After finally recruiting some target users to test my designs, I incorporated further changes to complete the first design iteration. Clicking the link below will take you to a formal design document, with more indepth information.",
 	pageimg: [
-		{ img1: "",
-		  img2: "",
-		  img3: "",
-		  img4: ""
-		}
+		"../images/citizens_login.png",
+		"../images/citizens_findcongress.png",
+		"../images/citizens_post.png",
+		"../images/citizens_upcoming.png",
 		],
 	site: "",
 	id: 2	
@@ -48,9 +48,9 @@ const data = {
 	type: "Web Development",
 	link: "dmdekker",
 	number: 6,
-	project: "As an newbie developer on the verge of graduating, I made an online portfolio for my work using Ruby on Rails via Cloud 9, and deplying to Heroku for hosting. My website is hosted by Google Web Services. I like the clean aesthetic that Bootstrap delivers, which was in line with my desire to have a simple, yet elegant, website.",
+	project: "As an newbie developer on the verge of graduating, I originally made an online portfolio for my work using Ruby on Rails via Cloud 9, and deplying to Heroku for hosting. My website is hosted by Google Web Services. I like the clean aesthetic that Bootstrap delivers, which was in line with my desire to have a simple, yet elegant, website. In October 2017, I decided to teach myself React and my website seemed like a great place to start!",
 	challenges: "While making the main static pages, there was a flickering (sometimes known as FOUC: Flash Of Unstyled Content) that was hard to troubleshoot. After poking around on Stackoverflow and trying many unsuccessful remedies, I found a solution that recommended removing Turbolinks from my Rails application. More information regarding Turbolinks can be found here. Formatting for mobile also presented challenges, but Bootstrap's responsive features made styling for multiple devices easy. Additionally, the maps page could be improved upon; the Leaflet map could run more efficiently, but I haven't yet been able to make the markers cluster work on Rails.",
-	tools: "Ruby on Rails, CSS, HTML5, Cloud 9, Heroku, and Bootstrap.",
+	tools: "React, CSS, HTML5, Cloud 9, Heroku, and Bootstrap.",
 	result: "I'm happy with the final result; it conveys a good sense of my aesthetic and showcases my emerging developer sensibilities and skillset. Press the button below to connect to my GitHub repository for this project.",
 	pageimg: [
 		{ img1: "",
@@ -59,7 +59,7 @@ const data = {
 		  img4: ""
 		}
 		],
-	site: "",
+	site: "http://www.dmdekker.io/",
 	id: 3
 },
 
@@ -95,11 +95,10 @@ const data = {
 	tools: "MongoDB, Express, Angular, Node.js, CSS, Jade, Cloud 9, Bootstrap, and Heroku, plus the Agile process to plan and develop our site.",
 	result: "",
 	pageimg: [
-		{ img1: "",
-		  img2: "",
-		  img3: "",
-		  img4: ""
-		}
+		"../images/citizens_login.png",
+		"../images/citizens_findcongress.png",
+		"../images/citizens_post.png",
+		"../images/citizens_upcoming.png",
 		],
 	site: "",
 	id: 5	
