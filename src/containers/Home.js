@@ -9,7 +9,7 @@ export default class Home extends Component {
         <div className="col-md-12 text-center">
           <h1>Welcome!</h1>
          
-          <p className="App-intro box animate fadeInDown two">
+          <p className="App-intro-short box animate fadeInDown two">
            I'm Denise, a recent CS Grad looking for developer work.</p>
            
           <img className="App-photo img-rounded" src="./denise.jpg" alt="Denise with Hearts around her head"/>

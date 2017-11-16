@@ -14,10 +14,13 @@ const WorkPage = (props) => {
     }
     
     const images = workpage.pageimg.map(img =>
-      <Col md="6" key={img}>      
+      <Col md="12" key={img}>      
         <img className="img-responsive" alt="images" src={img} />
       </Col>    
     );
+    
+    
+    
       
     return (
         <div className="App">
@@ -53,6 +56,7 @@ const WorkPage = (props) => {
             </Col>    
         </div>
       )
+      <Resume/>
     }
 
 export default WorkPage;

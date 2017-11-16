@@ -11,11 +11,19 @@ const data = {
 	tools: "Node.js, Express, Bootstrap, jQuery",
 	result: "I'm happy so far with the result, appearance, and functionality. We worked to get a MVP up (so Jim could have something to show prospective clients) and I'm currently working on making a template for the portfolio page, plus adding a blog and CMS so Jim can update the site on his own.",
 	pageimg:
-		[
-		"../images/jim_home.png",
-		 "../images/jim_portfolio.png",
-		 "../images/jim_openmodal.png",
-		"../images/jim_dtour.png"
+			[
+			{
+				image: "../images/jim_home.png",
+				text: "something"
+			},
+			{
+				image: "../images/jim_portfolio.png",
+				text: "something"
+			},
+			{
+				image: "../images/jim_openmodal.png",
+				text: "../images/jim_dtour.png"
+			}	
 		],
 	site: "http://www.jimgranato.com/",
 	id: 1
@@ -64,27 +72,6 @@ const data = {
 },
 
 {
-	img: "https://res.cloudinary.com/dmcdekker/image/upload/c_scale,h_432,w_648/v1498604496/ingredients_landscape_wx38zd.jpg",
-	name: "FindEatFood",
-	type: "Android Development",
-	link: "findeatfood",
-	number: 5,
-	project: "Each day, thousands of pounds of food are thrown in the garbage; in the U.S., between 30-40% of the overall food supply is estimated to be waste. FINDEATFOOD aims to mitigate this waste by encouraging users to search for recipes based on ingredients they may have at home, or to menu plan more cost-efficiently. Also, FINDEATFOOD finds recipes based on ingredients and dietary restrictions using HTTP requests to Yummly's API and users can save recipes as favorites.",
-	challenges: "In addition to finding recipes, part of the original plan was to include a feature that could deals. Unfortunately, the API I wanted to use that facilitated finding deals was no longer giving out API keys, and the backup API did not yield any useful data, so this feature was ommitted from FINDEATFOOD. Also, I found the styling/formatting challenging; due to unfamiliarity, it was difficult to switch gears from web development to Android development and I found the experience frustrating at times, but it was a great learning experience. Click on the images to enlarge.",
-	tools: "Android Studio.",
-	result: "The overall appearance is fine; I would liked to have spent more time with Android front end design and produced a more polished product.",
-	pageimg: [
-		{ img1: "",
-		  img2: "",
-		  img3: "",
-		  img4: ""
-		}
-		],
-	site: "",
-	id: 4	
-},
-
-{
 	img: "https://res.cloudinary.com/dmcdekker/image/upload/c_scale,h_432,w_648/v1488914918/Screen_Shot_2017-03-06_at_3.35.48_PM_nfqmf0.png",
 	name: "CitizensOrg",
 	type: "Web Development",
@@ -105,6 +92,29 @@ const data = {
 },
 
 {
+	img: "https://res.cloudinary.com/dmcdekker/image/upload/c_scale,h_432,w_648/v1498604496/ingredients_landscape_wx38zd.jpg",
+	name: "FindEatFood",
+	type: "Android Development",
+	link: "findeatfood",
+	number: 5,
+	project: "Each day, thousands of pounds of food are thrown in the garbage; in the U.S., between 30-40% of the overall food supply is estimated to be waste. FINDEATFOOD aims to mitigate this waste by encouraging users to search for recipes based on ingredients they may have at home, or to menu plan more cost-efficiently. Also, FINDEATFOOD finds recipes based on ingredients and dietary restrictions using HTTP requests to Yummly's API and users can save recipes as favorites.",
+	challenges: "In addition to finding recipes, part of the original plan was to include a feature that could deals. Unfortunately, the API I wanted to use that facilitated finding deals was no longer giving out API keys, and the backup API did not yield any useful data, so this feature was ommitted from FINDEATFOOD. Also, I found the styling/formatting challenging; due to unfamiliarity, it was difficult to switch gears from web development to Android development and I found the experience frustrating at times, but it was a great learning experience. Click on the images to enlarge.",
+	tools: "Android Studio.",
+	result: "The overall appearance is fine; I would liked to have spent more time with Android front end design and produced a more polished product. Clicking the link at the bottom of the page will connect you to the design document.",
+	pageimg: [
+		  "../images/fef_home_closed.png",
+		  "../images/fef_home_open.png",
+		  "../images/fef_recipe_search.png",
+		  "../images/fef_returned_recipes.png",
+		  "../images/fef_recipe_details.png",
+		  "../images/fef_recipe_link.png"
+		],
+	site: "https://docs.google.com/document/d/1CnLIujF6C1yfO51E0_8yWKwo4Gv2Z6WhusfCujLmW4c/edit?usp=sharing",
+	id: 4	
+},
+
+
+{
 	img: "https://res.cloudinary.com/dmcdekker/image/upload/c_scale,h_432,w_648/v1471463441/Denise%20Website/use_model_jgk2as.jpg",
 	name: "SproutWare",
 	type: "UX Design",
@@ -115,11 +125,10 @@ const data = {
 	tools: "Axure, Google Forms, Google draw-io, NinjaMock",
 	result: "After analysing and refining the wireframes, we created a high fidelity prototype using Axure and Wix, which enabled us to produce a high-fidelity, realistic prototype for user testing. Of all the methods, the prototype and user testing generated the most feedback for improvements to our site; for example, most users found that when they were browsing inventory, product information and buy now buttons were indistinguishable from each other./n In addition to separating the buttons, we redesigned the page to make it easier for users to distinguish between the function of the buttons on the page by renaming them, changing the color, and placement. Also, users could click on a product’s image to view its details./n During prototype testing, when we instructed testers to add a review, participants said they would normally click a review link provided in email, so we added the additional step of sending an email to the user containing the purchase information and a prompt to add a review of their purchases. In addition, we added a review button on the order confirmation page. Our initial prototype had viewers leave a review on the product detail page, which required a log in, so the last iteration enabled the user to write a review by clicking a link in the email.",
 	pageimg: [
-		{ img1: "",
-		  img2: "",
-		  img3: "",
-		  img4: ""
-		}
+		  "",
+		  "",
+		  "",
+		  ""
 		],
 	site: "",
 	id: 6
@@ -136,42 +145,24 @@ const data = {
 	tools: "In addition to Ruby on Rails, CSS, HAML, Cloud 9, Pivotal Tracker, Piazza, and Heroku, we used the Agile process to plan and develop our site.",
 	result: "Overall, the website turned out well with good functionality and we achieved all the goals outlined within our User Stories.",
 	pageimg: [
-		{ img1: "",
-		  img2: "",
-		  img3: "",
-		  img4: ""
-		}
+		"../images/sisterweb2.png",
+		"../images/sisterweb1.png"
 		],
-	site: "",
+	site: "https://young-reef-29553.herokuapp.com/staticpages/home",
 	id: 8	
 },
 
 {
-	img: "https://res.cloudinary.com/dmcdekker/image/upload/c_scale,h_432,w_648/v1471463440/Denise%20Website/listen_typo_dxdlrg.jpg",
+	img: "../images/typo_listen.png",
 	name: "Typography",
 	type: "Letterpress",
 	link: "typography",
 	number: 1,
-	project: [
-		{
-			broadsheet: "Designed by Giambattista Bodoni in the late 18th century, the Bodoni typeface heralded a growing departure away from the flourishes of the Baroque period and into the Rococo period. Inspired by Pierre Didot, whose eponymous typeface exuded simplicity, Bodoni’s cleaner, mathematically precise Roman-style type materialized as “obsessively vertical” with starker contrasting. As the Age of Enlightenment progressed, logic, scientific reasoning and accuracy gained in popularity. New typeface design reflected changing aesthetics and the advent of Modern classification for typography. As a distinguished printer for royalty, Bodoni type was used primarily for books; Homer’s Iliad was one of Bodoni’s finished masterpieces. My broadsheet incorporated the stylistic leanings of Bodoni: clean execution for readability, variance in type size, some simple lines, and hierarchy using Bodoni Book typeface. The passage from Beatrice Warde’s essay about typography, The Crystal Goblet, was a fitting homage to the savant purism exhibited in Bodoni’s work.",
-			img: ""
-		},
-		{
-			broadsheet: "",
-			img: ""
-		}
-		],
+	project: "",
 	challenges: "",
 	tools: "",
 	result: "",
-	pageimg: [
-		{ img1: "",
-		  img2: "",
-		  img3: "",
-		  img4: ""
-		}
-		],
+	pageimg: [],
 	site: "",
 	id: 9	
 }
