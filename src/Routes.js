@@ -13,7 +13,6 @@ const Routes = () => (
       <Route path="/work" component={Work} />
       <Route path="/resume" component={Resume} />
       <Route path="/notfound" component={NotFound} />
-      
     </Switch>
   </main>
 )

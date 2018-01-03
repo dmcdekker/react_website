@@ -13,15 +13,18 @@ const WorkPage = (props) => {
     return <div>Sorry, but this work page does not exist!</div>
     }
     
-    const images = workpage.pageimg.map(img =>
-      <Col md="12" key={img}>      
-        <img className="img-responsive" alt="images" src={img} />
+    const images6 = workpage.pageimg6.map(image =>
+      <Col md="6" key={image}>
+        <img className="img-responsive" alt="images6" src={image} />
       </Col>    
     );
     
-    
-    
-      
+    const images4 = workpage.pageimg4.map(image =>
+      <Col md="4" key={image}>
+        <img className="img-responsive" alt="images4" src={image} />
+      </Col>    
+    );
+ 
     return (
         <div className="App">
             <FontAwesome name="arrow-left" /><Link className="link" to='/work'> Work Main</Link>
@@ -31,19 +34,29 @@ const WorkPage = (props) => {
             </Col>
             
             <Col md="12">
-                <h3>PROJECT DESCRIPTION</h3>
                 <p className="paragraph">{workpage.project}</p>
                 <h3>CHALLENGES</h3>
                 <p className="paragraph">{workpage.challenges}</p>
-                <h3>TOOLS</h3>
-                <p className="paragraph">{workpage.tools}</p>
-                <h3>FINAL RESULT</h3>
-                <p className="paragraph">{workpage.result}</p>
+                <h3>PROCESS</h3>
+                <p className="paragraph">{workpage.process1}</p>
+                <p className="paragraph">{workpage.process2}</p>
+                <p className="paragraph">{workpage.process3}</p>
             </Col>
             
             <Col md="12">
-              {images}
+              <h3>IMAGES</h3>
+              {images6}
+            </Col>  
+            <Col md="12">
+              {images4}
             </Col>
+            
+            <Col md="12">
+                <h3>FINAL RESULT</h3>
+                <p className="paragraph">{workpage.result}</p>
+                <h3>TOOLS</h3>
+                <p className="paragraph">{workpage.tools}</p>
+            </Col>    
             
             <Col md="12">
                 <Nav justified>
@@ -53,10 +66,11 @@ const WorkPage = (props) => {
                          <h4>Link to Work</h4>
                     </NavItem>
                 </Nav>
-            </Col>    
+            </Col>
         </div>
+        
       )
-      <Resume/>
+      
     }
 
 export default WorkPage;

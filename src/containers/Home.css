@@ -32,6 +32,10 @@
   height: 20em;
 }
 
+.photo_credit{
+  font-size: .6em;
+}
+
 .animate {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;

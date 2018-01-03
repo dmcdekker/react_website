@@ -3,7 +3,7 @@ import './Work.css';
 import data from './data.js';
 import { Card, CardImg, CardBody, Col, CardTitle,
   CardSubtitle, CardDeck } from 'reactstrap';
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom'
 
 const WorkList = () => (
     <div className="App">
@@ -20,9 +20,10 @@ const WorkList = () => (
                     </CardBody>
                 </Col>   
               </Card>     
-            </CardDeck>
+             </CardDeck>
       ))}
-     </div>  
+            
+      </div>  
     </div>  
 );
   

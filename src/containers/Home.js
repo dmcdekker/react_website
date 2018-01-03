@@ -10,9 +10,10 @@ export default class Home extends Component {
           <h1>Welcome!</h1>
          
           <p className="App-intro-short box animate fadeInDown two">
-           I'm Denise, a recent CS Grad looking for developer work.</p>
+           I'm Denise, a recent CS Grad looking for work.</p>
            
-          <img className="App-photo img-rounded" src="./denise.jpg" alt="Denise with Hearts around her head"/>
+          <img className="App-photo img-rounded" src="./dj.jpg" alt="Denise Djing"/>
+          <p className="photo_credit">Photo Credit: Hagen Tilp</p>
         
         
           <p className="App-intro-long">Originally from Edinburgh, Scotland, I've lived in the Bay Area since 1994.
@@ -27,6 +28,7 @@ export default class Home extends Component {
           Check out my work page! I have worked on a variety of projects as a developer and UX/UI designer. </p>
              
           <p className="App-intro-long">When I'm not working on projects, I'm an avid chef, produce nerd, and sometime DJ for fundraising events at my daughter's school.</p>
+          
         </div>       
       </div>
     );
