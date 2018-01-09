@@ -27,9 +27,9 @@ const WorkPage = (props) => {
  
     return (
         <div className="App">
-            <FontAwesome name="arrow-left" /><Link className="link" to='/work'> Work Main</Link>
+            <FontAwesome name="arrow-left" /><Link className="link" to='/work'>  WORK MAIN</Link>
             
-            <Col md="12 text-center">
+            <Col md="12 text-center page-header">
               <h1>{workpage.name}: {workpage.type}</h1>
             </Col>
             
@@ -44,7 +44,7 @@ const WorkPage = (props) => {
             </Col>
             
             <Col md="12">
-              <h3>IMAGES</h3>
+              
               {images6}
             </Col>  
             <Col md="12">
@@ -52,13 +52,12 @@ const WorkPage = (props) => {
             </Col>
             
             <Col md="12">
-                <h3>FINAL RESULT</h3>
                 <p className="paragraph">{workpage.result}</p>
                 <h3>TOOLS</h3>
                 <p className="paragraph">{workpage.tools}</p>
             </Col>    
             
-            <Col md="12">
+            <Col md="12 site-link">
                 <Nav justified>
                     <NavItem
                          eventKey={4}

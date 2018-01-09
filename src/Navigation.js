@@ -12,7 +12,7 @@ class Navigation extends Component {
       <Navbar fixedTop collapseOnSelect>
           <Navbar.Header autoFocus>
             <Navbar.Brand>
-              <Link to="/">DENISE M. DEKKER</Link>
+              <Link to="/">D.M. DEKKER</Link>
             </Navbar.Brand>
             <Navbar.Toggle />
           </Navbar.Header>

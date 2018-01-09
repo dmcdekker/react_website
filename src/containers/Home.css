@@ -28,9 +28,14 @@
   border: none;
 }
 
-.App-photo{
-  height: 20em;
+img.App-photo.img-rounded.img-responsive {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  height: 80%;
+  width: 80%;
 }
+
 
 .photo_credit{
   font-size: .6em;
@@ -43,12 +48,14 @@
   animation-fill-mode: both;
 }
 
+.col-md-12{
+  margin-bottom: 3em;
+}
+
 .col-md-12 p{
   top: 0;
   line-height: 1.90em;
 }
-
-
 
 .two {
 -webkit-animation-delay: 1.3s;
