@@ -19,12 +19,12 @@ export default class Footer extends React.Component {
               </NavItem>
               <NavItem className="text-center"
                 eventKey={2}
-                href="http://www.linkedin.com/in/denise-m-dekker-64538a5" target="_blank">
+                href="http://www.linkedin.com/in/denise-m-dekker" target="_blank">
                 <FontAwesome name="linkedin" />
               </NavItem>
               <NavItem className="text-center"
                 eventKey={3}
-                href="http://twitter.com/dmcdekker" target="_blank">
+                href="http://instagram.com/dmcdekker" target="_blank">
                 <FontAwesome name="instagram" />
               </NavItem>
             </Nav>

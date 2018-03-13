@@ -1,29 +1,38 @@
 .App {
-  margin-top: 3em;
+  margin-top: 2em;
   padding: 0;
-  margin-bottom: 3em;     
+    
 }
 
 a {
     color: #262626;
     text-decoration: none !important;
+    
 }
 
 .card-deck{
-    margin-top: 1.2em;
+    margin-top: 1.3em;
 }
 
 .card-body{
-    border-bottom: solid 1.75px #737373;
-    border-left: solid 1.75px #737373;
-    border-right: solid 1.75px #737373;
-    margin-bottom: 2em;
+    border-bottom: solid 2px #737373;
+    border-left: solid 2px #737373;
+    border-right: solid 2px #737373;
+    margin-bottom: 3em;
     padding: .5em;
 }
 
 
 .card-inline{
     display: inline-block;
+}
+
+.card-subtitle{
+    font-size: .8em;
+}
+
+.card-title{
+    font-size: 1.3em;
 }
 
 .col-md-12{
@@ -47,7 +56,7 @@ img{
 }
 
 .link{
-    font-size: .8em;
+    font-size: 1em;
     margin-bottom: 3em;
     margin-top: .5em;
 }
@@ -68,6 +77,17 @@ img{
   color: #262626;
 }
 
+.fa.fa-arrow-left{
+    -webkit-text-stroke: 2px white;
+}
+
+.link_to{
+    background-color: #666666;
+    color: white;
+    padding: 7px;
+    border-radius: 30px;
+    
+}
 
 
 

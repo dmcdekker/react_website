@@ -10,7 +10,7 @@ export default class Home extends Component {
           <h1>Welcome!</h1>
          
           <p className="App-intro-short box animate fadeInDown two">
-           I'm Denise, a recent CS Grad looking for work.</p>
+           I'm Denise, a CS Grad looking for work.</p>
            
           <img className="App-photo img-rounded img-responsive" src="./dj.jpg" alt="Denise Djing"/>
           <p className="photo_credit">Photo Credit: Hagen Tilp</p>
@@ -24,8 +24,10 @@ export default class Home extends Component {
             </p>
                      
           <p className="App-intro-long">I’m passionate about the convergence of design, accessibility, and user experience; my professional goal is to work in a role that utilizes my skills in product design and development.
-          I believe that everyone should have exceptional, joyful experiences with web and mobile technologies, and I'm especially inspired to build solutions that create equity in access and functionality. 
+          I believe that everyone should have exceptional experiences with web and mobile technologies, and I'm especially inspired to build solutions that create equity in access and functionality. 
           Check out my work page! I have worked on a variety of projects as a developer and UX/UI designer. </p>
+          
+          <p className="App-intro-long">Beginning April 2018, I will be joining Hackbright Academy as a fellow; stay tuned for updates on my progress! </p>
              
           <p className="App-intro-long">When I'm not working on projects, I'm an avid chef, produce nerd, and sometime DJ for fundraising events at my daughter's school.</p>
           

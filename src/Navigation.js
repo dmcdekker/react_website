@@ -10,7 +10,7 @@ class Navigation extends Component {
     return (
      <div>  
       <Navbar fixedTop collapseOnSelect>
-          <Navbar.Header autoFocus>
+          <Navbar.Header>
             <Navbar.Brand>
               <Link to="/">D.M. DEKKER</Link>
             </Navbar.Brand>

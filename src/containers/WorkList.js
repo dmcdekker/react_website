@@ -11,7 +11,7 @@ const WorkList = () => (
        {data.all().map(p => (
              <CardDeck id="carddeck" key={p.number}>
               <Card id="card">
-                <Col md="4" sm="6">
+                <Col lg="4" sm="6" xs="12">
                     <CardImg id="cardimg" top width="100%" alt="Card image cap" src={p.img} />
                     <CardBody className="text-center">
                       <CardTitle id="cardtitle" className="text-center">{p.name}</CardTitle>
