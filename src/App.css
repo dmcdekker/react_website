@@ -74,6 +74,22 @@ NavItem{
     margin-right: auto;
 }
 
+.fa{
+    font-size: 1.4em;
+}
+
+.fa-github:hover{
+    color: #00e600;
+}
+
+.fa-linkedin:hover{
+    color: #0a58d6;
+}
+
+.fa-instagram:hover{
+    color: #ff00ff;
+}
+
 footer{
   margin-top: 2%;    
    height: 5%;

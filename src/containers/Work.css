@@ -39,14 +39,14 @@ a {
     margin-bottom: 1em;
 }
 
+.img-responsive{
+    margin-bottom: 1.5em;
+}
+
 .page-header{
     margin-top: 1.5em;
     margin-bottom: 1em;
     text-decoration: none;
-}
-
-.img-responsive{
-    margin-bottom: 1.5em;
 }
 
 img{
@@ -82,11 +82,15 @@ img{
 }
 
 .link_to{
-    background-color: #666666;
+    background-color: #9494b8;
     color: white;
-    padding: 7px;
+    padding: 9px;
     border-radius: 30px;
-    
+}
+
+.link_to:hover{
+    color: white;
+    background-color: #5c5c8a;
 }
 
 

@@ -3,10 +3,10 @@ const data = {
 {
 	img: "https://res.cloudinary.com/dmcdekker/image/upload/c_scale,h_430,w_648/v1520978395/stitcher_icon_eeyt9a.jpg",
 	name: "Stitcher Feature",
-	type: "Adding A Social Feature to Stitcher",
+	type: "Product Management",
 	link: "stitcher",
 	number: 9,
-	project: "",
+	project: "Adding A Social Feature to Stitcher ",
 	challenges: "Stitcher (as of the time this project was completed) had a buried social feature for sharing podcasts; my assignment was to improve upon this feature.", 
 	process1: "Assumptions: Revenue from subscriptions and ads is not a driving factor; new feature cost and implementation should be minimal; 'my Thumbs up' data (existing feature) is collected and stored; feature is for mobile platform. Goals of Feature: To test assumption of PM that user-to-user interaction improves overall experience; to improve social aspect of app; measure user engagement in app with improved social component.",
 	process2: "Based on a user profile, My idea was to add a menu item called 'Recommended' in navigation drawer; when friends Thumbs Up podcast, podcast items are added in reverse chronological order and a notification is sent to friends (plus addition of pop up to communicate change to function of Thumbs Up button that shows once). This adds an immediate visual cue when there are notifications, improves usability; brings social aspect of up a level in navigation hierarchy, adds to existing infrastructure without redesign of entire app, and utilizes data (Thumbs Up) already being collected.",

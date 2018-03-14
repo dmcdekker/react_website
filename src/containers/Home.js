@@ -10,7 +10,7 @@ export default class Home extends Component {
           <h1>Welcome!</h1>
          
           <p className="App-intro-short box animate fadeInDown two">
-           I'm Denise, a CS Grad looking for work.</p>
+           I'm Denise, a developer looking for work.</p>
            
           <img className="App-photo img-rounded img-responsive" src="./dj.jpg" alt="Denise Djing"/>
           <p className="photo_credit">Photo Credit: Hagen Tilp</p>

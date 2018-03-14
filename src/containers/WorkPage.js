@@ -63,7 +63,7 @@ const WorkPage = (props) => {
                          eventKey={4}
                          href={`${workpage.site}`} target="_blank">
                          <span className="link_to">Link to Work</span>
-                         
+         
                     </NavItem>
                 </Nav>
             </Col>
