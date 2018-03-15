@@ -32,7 +32,7 @@ export default class Footer extends React.Component {
             
         </footer>
         <Col md="12 text-center">
-         <h6 className="copyright">© 2017 D.M. Dekker. All rights reserved.</h6>
+         <h6 className="copyright">© 2018 D.M. Dekker. All rights reserved.</h6>
         </Col> 
       </Grid>
     );

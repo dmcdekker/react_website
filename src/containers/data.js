@@ -5,7 +5,7 @@ const data = {
 	name: "Stitcher Feature",
 	type: "Product Management",
 	link: "stitcher",
-	number: 9,
+	number: 8.2,
 	project: "Adding A Social Feature to Stitcher ",
 	challenges: "Stitcher (as of the time this project was completed) had a buried social feature for sharing podcasts; my assignment was to improve upon this feature.", 
 	process1: "Assumptions: Revenue from subscriptions and ads is not a driving factor; new feature cost and implementation should be minimal; 'my Thumbs up' data (existing feature) is collected and stored; feature is for mobile platform. Goals of Feature: To test assumption of PM that user-to-user interaction improves overall experience; to improve social aspect of app; measure user engagement in app with improved social component.",
@@ -20,14 +20,14 @@ const data = {
 		"../images/stitcher_2.png",	
 		],	
 	site: "https://zrkhja.axshare.com/home.html",
-	id: 8
+	id: 8.1
 },  	
 {
 	img: "https://res.cloudinary.com/dmcdekker/image/upload/c_scale,h_432,w_648/v1504041011/jim_card2_dkl0op.png",
 	name: "Jim Granato",
 	type: "Web Development",
 	link: "jimg",
-	number: 8,
+	number: 7.2,
 	project: "As an independent filmmaker, Jim wanted an updated, more modern looking site that presented his work using clean and organized design. He wanted to curate his best work on the website, so he could use it as an online professional resume. To give users, and potential customers, a more directed experience, I grouped his work by jQuery tags.",
 	challenges: "For the portfolio, which is a lightbox, there was a problem with the embedded video content not closing completely; unfortunately, the sound would continue to play and the only way to stop it was to refresh the browser. After some research, I added some javascript to completely close the modal. Also with the modal, I couldn't figure out how to keep the focus on the menu items on the portfolio page; apparently it's a known problem with modals (it's also an accessibility issue).",
 	process1: "After consulting with Jim and looking at other filmmaker's sites, we came up with a clean, easily navigable UI to showcase his work; a combination of jQuery and Bootstrap made this easy to achieve.",
@@ -44,7 +44,7 @@ const data = {
 		],
 	pageimg4:[],	
 	site: "http://www.jimgranato.com/",
-	id: 7
+	id: 7.1
 },
 
 {
@@ -52,7 +52,7 @@ const data = {
 	name: "4Bells",
 	type: "Product Dev/UX/UI Design",
 	link: "4Bells",
-	number: 7,
+	number: 6.2,
 	project: "4Bells is a first responder mobile application from Caravan Studios. 4Bells matches volunteers with time-sensitive tasks, like delivering important documents, picking up a dog from the pound, or deploying volunteers after a disaster. It enables group leaders to connect easily with volunteers, create tasks, and monitor who has signed up to complete tasks. As the Product Developer intern, my job was to redesign the UI and improve app functionality. In addition, Caravan Studios wanted the app to incorporate web accessibility features without changing the back end. ",
 	challenges: "Because the color palette was already established, working with accessibility guidelines for the first time was challenging. During the design process, I had to figure out how to keep the original colors while simultaneously allowing for sufficent contrast. Unfortunately, many of the colors had to change to meet WCAG guidelines; fortunately, the WCAG website has many wonderful tools that make selecting the right contrast easy. One of the ways I resolved not having to radically change the design was to put a box with a lighter color around text areas. Also, Adobe XD does not allow for global changes to color, so when a color needed to be changed, every item had to be changed.",
 	tools: "Adobe XD, Axure.",
@@ -72,7 +72,7 @@ const data = {
 	
 		],		
 	site: "https://docs.google.com/document/d/1DQ9gjJpd58RiUJH0he5hSAQ9GCVzVSUD7mGj5SytHhs/edit?usp=sharing",
-	id: 6	
+	id: 6.1	
 }, 
 
 {
@@ -80,7 +80,7 @@ const data = {
 	name: "dmdekker.io",
 	type: "Web Development",
 	link: "dmdekker",
-	number: 6,
+	number: 5.2,
 	project: "As an newbie developer on the verge of graduating, I originally made an online portfolio for my work using Ruby on Rails via Cloud 9, and deplying to Heroku for hosting. My website is hosted by Google Web Services. I like the clean aesthetic that Bootstrap delivers, which was in line with my desire to have a simple, yet elegant, website. In October 2017, I decided to teach myself React and redoing my website seemed like a great place to start!",
 	challenges: "While making the main static pages, there was a flickering (sometimes known as FOUC: Flash Of Unstyled Content) that was hard to troubleshoot. After poking around on Stackoverflow and trying many unsuccessful remedies, I found a solution that recommended removing Turbolinks from my Rails application. More information regarding Turbolinks can be found here. Formatting for mobile also presented challenges, but Bootstrap's responsive features made styling for multiple devices easy. Additionally, the maps page could be improved upon; the Leaflet map could run more efficiently, but I haven't yet been able to make the markers cluster work on Rails.",
 	process1: "I decided to teach myself React and redesigned my site at the beginning of 2018. I learned quickly that React was not ideal for my purposes, as I wanted more variance with individual pages, but I learned a lot!",
@@ -93,7 +93,7 @@ const data = {
 		],
 	pageimg4:[],	
 	site: "http://www.dmdekker.io/",
-	id: 5
+	id: 5.1
 },
 
 {
@@ -101,7 +101,7 @@ const data = {
 	name: "CitizensOrg",
 	type: "Web Development",
 	link: "citizensorg",
-	number: 4,
+	number: 4.2,
 	project: "A project for CS186 at Mills College, CitizensOrg is a web application that helps facilitates neighborhood political organizing. After the 2016 election, we wanted to create a tool that made political organizing easy; a platform where people could schedule meetings and share information. Users will be able to login and post/find actionable events. An additional feature enables users to look up their Congresspeople by zipcode. I was responsible for the front end and design and making the site responsive for mobile.",
 	challenges: "Until this project, I had never used Jade in conjuntion with CSS, but found it to be easy to navigate. My challenges with the front end mostly occurred with Flash of Unstyled Content (FOUC), which apparently is common with Angular. Fortunately, there was some documentation in the Angular library (link here), which advised using the ng-cloak tag. It worked, but took me a few attempts to realize that the tag should go on the HTML element. Without the tag, our login button on the navigation bar kept flashing to show the {{username}} Angular component. Also, working with the dashboard scrolling was challenging; the surrounding elements wanted to scroll too. I had to play around with different settings for the overflow and differentiate between mobile and full-screen views to make it work. Some of the UI is still a little funky on the iPad viewport. ",
 	process1: "The architecture of CitizensOrg is a typical Express application; the actions shown in the dashboard and the users are models that are stored in the database. The front end is comprised of HTML/CSS/Bootstrap. Furthermore, the Find Your Congressperson feature is implemented through querying the Sunlight Congress API which returns a JSON payload based off the zipcode sent to the API.",
@@ -117,7 +117,7 @@ const data = {
 		],
 	pageimg4:[],
 	site: "",
-	id: 4	
+	id: 4.1	
 },
 
 {
@@ -125,7 +125,7 @@ const data = {
 	name: "FindEatFood",
 	type: "Android Development",
 	link: "findeatfood",
-	number: 5,
+	number: 3.2,
 	project: "Each day, thousands of pounds of food are thrown in the garbage; in the U.S., between 30-40% of the overall food supply is estimated to be waste. FINDEATFOOD aims to mitigate this waste by encouraging users to search for recipes based on ingredients they may have at home, or to menu plan more cost-efficiently. Also, FINDEATFOOD finds recipes based on ingredients and dietary restrictions using HTTP requests to Yummly's API and users can save recipes as favorites.",
 	challenges: "In addition to finding recipes, part of the original plan was to include a feature that could deals. Unfortunately, the API I wanted to use that facilitated finding deals was no longer giving out API keys, and the backup API did not yield any useful data, so this feature was ommitted from FINDEATFOOD. Also, I found the styling/formatting challenging; due to unfamiliarity, it was difficult to switch gears from web development to Android development and I found the experience frustrating at times, but it was a great learning experience. Click on the images to enlarge.",
 	process1: "Using the Yummly API, FindEatFood includes a SQLite database to store names of favorite recipes and recipe_ids (the id associated with the recipe in Yummly). A table named 'favorite_recipes' was created and is populated when the user ‘stars’ a recipe. This table contains the name of the recipe and the id of the recipe. When the user decides for the recipe to be a favorite by starring it, the name of the recipe and the id for the recipe (in accordance to Yummly) are saved in the database.", 
@@ -143,7 +143,7 @@ const data = {
 		],
 	pageimg4:[],	
 	site: "https://docs.google.com/document/d/1CnLIujF6C1yfO51E0_8yWKwo4Gv2Z6WhusfCujLmW4c/edit?usp=sharing",
-	id: 3	
+	id: 3.1	
 },
 
 
@@ -152,7 +152,7 @@ const data = {
 	name: "SproutWare",
 	type: "UX Design",
 	link: "sproutware",
-	number: 3,
+	number: 2.2,
 	project: "To develop a compelling ecommerce site that provides detailed, expert information to customers who want to purchase developmentally appropriate and educational toys for children [individuals] aged 0 to 99.",
 	challenges: "Difficulty in finding tools that fit our criteria for making prototypes and wireframes (free and high quality!); I finally got a free student account from Axure. In UX/UI, there are no hard and fast rules, which can be frustrating when you're learning/doing something for the first time.",
 	process1: "In order to evaluate the potential success of our project, we examined the anatomy of the modern educational toy website and surveyed fifty-five potential users. Specifically, we were interested in people's motivation for purchasing toys online. ",
@@ -168,7 +168,7 @@ const data = {
 		],
 	pageimg4:[],	
 	site: "",
-	id: 2
+	id: 2.1
 },
 
 {
@@ -176,7 +176,7 @@ const data = {
 	name: "SisterWeb",
 	type: "Web Development",
 	link: "sisterweb",
-	number: 2,
+	number: 1.2,
 	project: "This was my first web programming project! SisterWeb was born from our groups' desire to have a platform where women in tech could interact, connect, and find support. For our final project, the goal was to produce a social website that users could log into and interact with each other using direct log in or third-party authentication. Using the Agile process, we implemented User Stories that centered around creating profiles, a calendar, and a way to create questions or comments that individual users could interact with.",
 	challenges: "As the Front End Developer, each page was styled as it came in. There was no formal CSS/HTML instruction; I learned everything on the fly. About a month into the project, I realized that I hadn’t formatted Bootstrap correctly in the application file, so the entire site ended up being entirely hand coded. Also, for the allotted timeframe of a semester, we definitely bit off more that we had time to complete! In the beginning, we devised a much more complex site than we ended up producing. I additionally filled the role of Product Manager, keeping our team on track with its goals and documenting progress via Pivotal Tracker.",
 	process1: "Using the Agile process, we developed user stories and used Pivotal Tracker to plan and develop our site. An example of one of our stories: As a female software engineer, so that I can find women in technology, I want a website that connects me to other women in tech.",
@@ -190,7 +190,7 @@ const data = {
 		],
 	pageimg4: [],
 	site: "https://young-reef-29553.herokuapp.com/staticpages/home",
-	id: 1	
+	id: 1.1	
 }
 ],
   all: function() { return this.workcards},

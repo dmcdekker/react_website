@@ -11,7 +11,6 @@ class App extends Component {
             <Navigation/>
             <Routes/>
             <Footer/>
-            
         </div>
     );
   }
