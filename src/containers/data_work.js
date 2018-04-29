@@ -1,69 +1,41 @@
 const data_work = {
   work: [
 {   
-  project_title: "Jim Granato",
-  dates: "(2017-2018)",
+  work_title: "Self-Employed Web Developer",
+  company: "",
+  location: "Oakland, CA",
+  dates: "(Sept 2017 - current)",
   description_1: "Developed and built professional portfolio website for filmmaker Jim Granato.",
-  tech_stack: "Express, Jade, Node, CSS, jQuery, Bootstrap",
-  github: "https://github.com/dmcdekker/jimG",
-  id: 8
-}, 
-{   
-  project_title: "Stealth Start Up",
-  dates: "(2018)",
-  description_1: "Product Design/Consultation for startup in stealth mode: wireframes, use model, personas.",
-  tech_stack: "Balsamiq",
-  github: "n/a", 
-  id: 7
-}, 
-{   
-  project_title: "4Bells",
-  dates: "(Dec 2016 - Aug, 2017)",
-  description_1: "UX/UI redesign of First Responder app.",
-  tech_stack: "React, HTML, CSS, Bootstrap",
-  github: "https://github.com/dmcdekker/react_website",
-  id: 6
-}, 
-{   
-  project_title: "D. M. Dekker",
-  dates: "(2017-2018)",
-  description_1: "Designed, developed, and built personal website for self.",
-  tech_stack: "React, HTML, CSS, Bootstrap",
-  github: "https://github.com/dmcdekker/react_website",
-  id: 5
-}, 
-{   
-  project_title: "FindEatFood",
-  dates: "(2017)",
-  description_1: "Built and designed mobile app to find recipes based on ingredients.",
-  tech_stack: "Android Studio, Java",
-  github: "https://github.com/dmcdekker/FindEatFood",
-  id: 4
-}, 
-{   
-  project_title: "CitizensOrg",
-  dates: "(2017)",
-  description_1: "Designed and built website for web application to facilitate neighborhood political organizing",
-  tech_stack: "MongoDB, Express, Angular, Node.js, Jade, CSS, jQuery, Javascript",
-  github: "https://github.com/dmcdekker/citizensorg",
-  id: 3
+  description_2: "Various web projects (form HTTP request handling, Product Design/Consultation for startup in stealth mode (wireframe)).",
+  tech_stack: "Tools: Adobe XD, Balsamiq, Axure",
+  id: 2.003
 },
-{
-  project_title: "SrpoutWare",
-  dates: "(2016)",
-  description_1: "Designed and built website for toys.",
-  tech_stack: "Axure, Wix, Balsamiq",
-  gitHub: "",
-  id: 2
+{   
+  work_title: "Product Developer",
+  company: "Caravan Studios",
+  location: "San Francisco, CA",
+  dates: "(Dec 2016 - Aug 2017)",
+  description_1: "Created new UI for 4Bells mobile app using Adobe XD.",
+  description_2: "Developed new information hierarchy using UX principles/methodology.",
+  description_3: "Integrated accessibility guidelines into app and design.",
+  description_4: "Tested resulting designs with target demographic.",
+  description_5: "Collated feedback from testing and integrated into second iteration.",
+  tech_stack: "Tools: Adobe XD, Balsamiq, Axure",
+  id: 2.002
 },
-{
-  project_title: "SisterWeb",
-  dates: "(2016)",
-  description_1: "Designed and built website for mentorship of women in tech.",
-  tech_stack: "Ruby on Rails, HAML, CSS.",
-  gitHub: "https://github.com/dmcdekker/SisterWebLogin.1",
-  id: 1
+{   
+  work_title: "Purchaser",
+  company: "Veritable Vegetable Inc",
+  location: "San Francisco, CA",
+  dates: "(April 2004 - Aug 2013)",
+  description_1: "Purchased extensive line of organic, fresh produce.",
+  description_2: "Reduced warehouse workload by streamlining receiving of prebuilt orders.",
+  description_3: "Managed grower relationships, logistical deadlines, inventory and quality for product line.",
+  description_4: "Co-directed Farm and Field Program.",
+  description_5: "Increased banana sales fourfold after introducing color categories for ripeness.",
+  id: 2.001
 }
+
 
 ],
   all: function() { return this.work},

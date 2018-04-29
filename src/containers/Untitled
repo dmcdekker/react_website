@@ -1,61 +1,75 @@
-import React, { Component } from 'react';
-import './Work.css';
-import data from '../data';
-import { Card, CardImg, CardBody, Col, CardTitle,
-  CardSubtitle, Button, CardDeck } from 'reactstrap';
-import { Link } from "react-router-dom";
-
-
-class WorkMain extends Component{
-  render() {
-        return (
-        <div className="App">  
-          <CardDeck id="carddeck">
-            <div>
-              {data.all().map((p => (
-              <Card id="card" key={p.link}>
-                <Col md="4">
-                  <CardImg id="cardimg" top width="100%" alt="Card image cap" src={p.img} />
-                  <CardBody className="text-center">
-                    <CardTitle id="cardtitle" className="text-center" key={data.cardtitle}>{p.name}</CardTitle>
-                    <CardSubtitle id="cardsubtitle">{p.type}</CardSubtitle>
-                    <Button><Link to={`/work/${p.link}`}>Read More</Link></Button>
-                  </CardBody>
-                </Col>   
-              </Card>     
-                )))}
-            </div>
-          </CardDeck>
-        </div>  
-        );
-    }
-}
-
-
-export default WorkMain;
-
 import React from 'react';
-import './Work.css';
-import data from '../data';
-import { Link } from "react-router-dom";
+import './Resume.css';
 
-const WorkPage = (props) => {
-    const work = data.get(props.match.params.link)
-    if (!work) {
-    return <div>Sorry, but the work page was not found</div>
-  }
+import { Media } from 'react-bootstrap';
+import data_work from './data_work';
+import data_school from './data_school';
+import data_project from './data_project';
+
+const Resume = () => (
+    <div className="App">
+      <div>
+        <h3 className='page-header'>TECHNOLOGY SUMMARY </h3>
+           <div className="tech-summary">
+            <Media>
+              <Media.Body>
+                  <Media.Heading className='media-heading'>Languages || <small>Python, Ruby, JavaScript (AJAX, JSON), HTML, CSS, SQL, Java, HAML, Jade</small></Media.Heading>
+                  <Media.Heading className='media-heading'>Frameworks and Libraries || <small>Flask, jQuery, Bootstrap, React, Angular, Ruby on Rails</small></Media.Heading>
+                  <Media.Heading className='media-heading'>Database/Industry Tools || <small>PostgreSQL, Git, GitHub, Command Line</small></Media.Heading>
+                  <Media.Heading className='media-heading'>Tools/Software || <small>Axure, Balsamiq, Adobe Creative Suite, Cloud 9</small></Media.Heading>
+              </Media.Body>
+            </Media>  
+           </div>      
   
-	    return (
-	        <div className="App">
-	          <div>     
-                <h1>Name:{work.name}</h1>
-              </div>
-            <Link to='/work'>Back</Link>
-            </div>
-    )
-  }
+        
+        <h3 className='page-header'>PROJECTS</h3>
+           <div className='resume-project'>
+             {data_project.all().map(p => (
+                <Media key={p.id}>
+                  <Media.Body>
+                    <Media.Heading className='media-heading'>{p.project_title} <small>{p.dates}</small></Media.Heading>
+                    <h4>{p.description_1} </h4>
+                    <em><h5 className='h5-resume'> Tools: {p.tech_stack} </h5></em>
+                  </Media.Body>
+                </Media>
+               
+             ))}
+           </div>   
+        
+        <h3 className='page-header'>WORK EXPERIENCE</h3>
+           <div className='resume-work'>
+             {data_work.all().map(p => (
+                <Media key={p.id}>
+                  <Media.Body>
+                    <Media.Heading className='media-heading'>{p.work_title} <small>{p.dates}</small></Media.Heading>
+                    <h4> {p.description_1} </h4>
+                    <h4> {p.description_2} </h4>
+                    <h4> {p.description_3} </h4>
+                    <h4> {p.description_4} </h4>
+                    <h4> {p.description_5} </h4>
+                    <em><h5 className='h5-resume'> {p.tech_stack} </h5></em>
+                  </Media.Body>
+                </Media>
+             ))}
+           </div>
+           
+       <h3 className='page-header'>EDUCATION AND TRAINING</h3>
+           <div className='resume-school'>
+             {data_school.all().map(p => (
+                <Media key={p.id}>
+                  <Media.Body>
+                    <Media.Heading className='media-heading'>{p.school_name}, {p.location} <small>({p.dates})</small></Media.Heading>
+                    <h4 className='h4-resume'><em>{p.certificate}</em> </h4>
+                    <h5 className='h5-resume'>{p.description_1} </h5>
+                  </Media.Body>
+                </Media>
+               
+             ))}
+           </div>        
+             
+        
+      </div> 
+    </div>  
+);
 
-export default WorkPage;
-
-
-
+export default Resume;

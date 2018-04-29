@@ -8,9 +8,9 @@ import { Nav, NavItem } from "react-bootstrap";
 
 const WorkPage = (props) => {
     
-    const workpage = data.get(props.match.params.link)
+    const workpage = data.get(props.match.params.link);
     if (!workpage) {
-    return <div>Sorry, but this work page does not exist!</div>
+    return <div>Sorry, but this work page does not exist!</div>;
     }
     
     const images6 = workpage.pageimg6.map(image =>
@@ -27,7 +27,7 @@ const WorkPage = (props) => {
  
     return (
         <div className="App">
-            <FontAwesome name="arrow-left" /><Link className="link" to='/work'>  WORK MAIN</Link>
+            <FontAwesome name="angle-double-left" /><Link className="link" to='/work'>   WORK</Link>
             
             <Col md="12 text-center page-header">
               <h1>{workpage.name}: {workpage.type}</h1>
@@ -74,7 +74,3 @@ const WorkPage = (props) => {
     }
 
 export default WorkPage;
-
-
-
-

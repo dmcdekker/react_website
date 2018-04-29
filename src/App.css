@@ -29,7 +29,6 @@
     margin-left: auto;
 }
 
-
 h2{
   color: #000000;
 }
@@ -86,12 +85,16 @@ NavItem{
     color: #00e600;
 }
 
-.fa-linkedin:hover{
-    color: #0a58d6;
+.fa-twitter:hover{
+    color: #0066ff;
 }
 
-.fa-instagram:hover{
+.fa-linkedin:hover{
     color: #ff00ff;
+}
+
+.fa-envelope:hover{
+    color: #944dff;
 }
 
 footer{

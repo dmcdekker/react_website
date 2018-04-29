@@ -1,0 +1,13 @@
+.media-heading{
+    font-weight: bold;
+    font-size: 1.05em;
+}
+
+.h5-resume{
+    font-size: .9em;
+}
+
+.h4 .small, .h4 small, .h5 .small, .h5 small, .h6 .small, .h6 small, h4 .small, h4 small, h5 .small, h5 small, h6 .small, h6 small {
+    font-size: 80%;
+    color: #8c8c8c;
+}

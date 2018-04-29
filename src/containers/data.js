@@ -13,14 +13,17 @@ const data = {
 	process3: "Alternative ideas: Overhaul home/landing page: remove drawer and add navigation bar at the foot of the screen; send notification when friends Thumbs Up podcast; add notification in Friends Activity when friends Thumbs Up podcast; in Friends & Profile menu item add Recommended tab (alongside my Activity and Friends Activity tabs); add podcast items in reverse chronological order and send notification to friends.",
 	tools: "Axure",
 	result: "",
-	pageimg6:[],
-	pageimg4:[
+	pageimg3:[
 		"../images/stitcher_1.png",
 		"../images/stitcher_3.png",
 		"../images/stitcher_2.png",	
+		],
+	pageimg6:[],
+	pageimg4:[
+		
 		],	
 	site: "https://zrkhja.axshare.com/home.html",
-	id: 8.1
+	id: 1.009
 },  	
 {
 	img: "https://res.cloudinary.com/dmcdekker/image/upload/c_scale,h_432,w_648/v1504041011/jim_card2_dkl0op.png",
@@ -35,6 +38,7 @@ const data = {
 	process3: "",
 	tools: "Node.js, Express, Bootstrap, jQuery",
 	result: "I'm happy so far with the result, appearance, and functionality. We worked to get a MVP up (so Jim could have something to show prospective clients) and I'm currently working on making a template for the portfolio page, plus adding a blog and CMS so Jim can update the site on his own.",
+	pageimg3:[],
 	pageimg6:
 		[
 		"../images/jim_home.png",
@@ -44,9 +48,8 @@ const data = {
 		],
 	pageimg4:[],	
 	site: "http://www.jimgranato.com/",
-	id: 7.1
+	id: 1.008
 },
-
 {
 	img: "https://res.cloudinary.com/dmcdekker/image/upload/c_scale,h_432,w_648/v1492138087/Screen_Shot_2017-04-13_at_3.45.21_PM_qpr2vu.png",
 	name: "4Bells",
@@ -60,21 +63,20 @@ const data = {
 	process2: "Next, I evaluated 4Bells using heuristics and accessibility recommendations and pinpointed the components that needed to change, including: button placement and color, button color changes to indicate state change, ability to click through items and not only swipe, contrast between foreground and background, simple prompts, visual hint of orientation, direction through funneling, help menu, separation of screens, intuitive top-level information hierarchy, clearer delineation of routes to action, logical sequence of events/tab order, not allow user to navigate away while mid-task.  ",
 	process3: "In order to convey the feeling of a beginning, middle, and end, I propose clearer delineation of the tabs, with with tabs that change color to reflect orientation (this was repeated throughout the app for consistency), with tabbing in addition to swiping. Swiping is not a preferred feature for accessibility, as it can be rendered inoperable by assistive technology.  The redesigned screen view can be seen below (old on top and new on bottom).",
 	result: "After recruiting some target users to test my designs, I incorporated further changes to complete the first design iteration. Given the scope of this project, I recommend clicking the link below to read the formal design document, which contains more indepth information.",
-	pageimg6: [
-		],
-	pageimg4:[
+	pageimg3:[
 		"../images/4bells_old1.png",
 		"../images/4bells_old2.png",
 		"../images/4bells_old3.png",
 		"../images/4bells_new1.png",
 		"../images/4bells_new2.png",
 		"../images/4bells_new3.png",
-	
-		],		
+	],
+	pageimg6: [
+		],
+	pageimg4:[],		
 	site: "https://docs.google.com/document/d/1DQ9gjJpd58RiUJH0he5hSAQ9GCVzVSUD7mGj5SytHhs/edit?usp=sharing",
-	id: 6.1	
+	id: 1.007	
 }, 
-
 {
 	img: "https://res.cloudinary.com/dmcdekker/image/upload/c_scale,h_432,w_648/v1493701540/denise_website_ugrf8p.png",
 	name: "dmdekker.io",
@@ -88,12 +90,13 @@ const data = {
 	process3: "",
 	tools: "React, CSS, HTML5, Cloud 9, Heroku, and Bootstrap.",
 	result: "I'm happy with the final result; it conveys a good sense of my aesthetic and showcases my emerging developer sensibilities and skillset. Press the button below to connect to my GitHub repository for this project.",
+	pageimg3:[],
 	pageimg6: [
 		
 		],
 	pageimg4:[],	
 	site: "http://www.dmdekker.io/",
-	id: 5.1
+	id: 1.006
 },
 
 {
@@ -108,16 +111,17 @@ const data = {
 	process2: "",
 	process3: "",
 	tools: "MongoDB, Express, Angular, Node.js, CSS, Jade, Cloud 9, Bootstrap, and Heroku, plus the Agile process to plan and develop our site.",
-	result: "Simple, clean, and functional! Given the current political climate, I wish that I had more time to develop this app more fully.",
-	pageimg6: [
+	result: "Simple, clean, and functional! Given the current political climate, I wish that I had more time to develop this app more fully. If you're following the link to the live site, please not that the 'Find Your Congress Person' feature is no longer working.",
+	pageimg3:[],
+	pageimg6: [],
+	pageimg4:[
 		"../images/citizens_login.png",
 		"../images/citizens_findcongress.png",
 		"../images/citizens_post.png",
-		"../images/citizens_upcoming.png",
+		
 		],
-	pageimg4:[],
-	site: "",
-	id: 4.1	
+	site: "http://citizensorg.herokuapp.com/",
+	id: 1.005
 },
 
 {
@@ -133,17 +137,18 @@ const data = {
 	process3: "",
 	tools: "Android Studio.",
 	result: "The overall appearance is fine; I would liked to have spent more time with Android front end design and produced a more polished product. Clicking the link at the bottom of the page will connect you to the design document.",
-	pageimg6: [
-		  "../images/fef_home_closed.png",
+	pageimg3:[
+		"../images/fef_home_closed.png",
 		  "../images/fef_home_open.png",
 		  "../images/fef_recipe_search.png",
 		  "../images/fef_returned_recipes.png",
 		  "../images/fef_recipe_details.png",
 		  "../images/fef_recipe_link.png"
 		],
+	pageimg6: [],
 	pageimg4:[],	
 	site: "https://docs.google.com/document/d/1CnLIujF6C1yfO51E0_8yWKwo4Gv2Z6WhusfCujLmW4c/edit?usp=sharing",
-	id: 3.1	
+	id: 1.004
 },
 
 
@@ -160,6 +165,7 @@ const data = {
 	process3: "",
 	tools: "Axure, Google Forms, Google draw-io, NinjaMock",
 	result: "After analysing and refining  wireframes, we created a high fidelity prototype using Axure and Wix, which enabled us to produce a high-fidelity, realistic prototype for user testing. Of all the methods, the prototype and user testing generated the most feedback for improvements to our site; for example, most users found that when they were browsing inventory, product information and buy now buttons were indistinguishable from each other. In addition to separating the buttons, we redesigned the page to make it easier for users to distinguish between the function of the buttons on the page by renaming them, changing the color, and placement. Also, users could click on a product’s image to view its details. During prototype testing, when we instructed testers to add a review, participants said they would normally click a review link provided in email, so we added the additional step of sending an email to the user containing the purchase information and a prompt to add a review of their purchases. In addition, we added a review button on the order confirmation page. Our initial prototype had viewers leave a review on the product detail page, which required a log in, so the last iteration enabled the user to write a review by clicking a link in the email.",
+	pageimg3:[],
 	pageimg6: [
 		  "../images/sproutware1.jpg",
 		  "../images/sproutware2.jpg",
@@ -167,8 +173,8 @@ const data = {
 		  "../images/sproutware3.jpg"
 		],
 	pageimg4:[],	
-	site: "",
-	id: 2.1
+	site: "https://docs.google.com/presentation/d/1oWrCdsujcrohi1K-kG-cNHKr5Gn0dkOGmaLzH0lWlZY/edit?usp=sharing",
+	id: 1.003
 },
 
 {
@@ -176,7 +182,7 @@ const data = {
 	name: "SisterWeb",
 	type: "Web Development",
 	link: "sisterweb",
-	number: 1.2,
+	number: 1.002,
 	project: "This was my first web programming project! SisterWeb was born from our groups' desire to have a platform where women in tech could interact, connect, and find support. For our final project, the goal was to produce a social website that users could log into and interact with each other using direct log in or third-party authentication. Using the Agile process, we implemented User Stories that centered around creating profiles, a calendar, and a way to create questions or comments that individual users could interact with.",
 	challenges: "As the Front End Developer, each page was styled as it came in. There was no formal CSS/HTML instruction; I learned everything on the fly. About a month into the project, I realized that I hadn’t formatted Bootstrap correctly in the application file, so the entire site ended up being entirely hand coded. Also, for the allotted timeframe of a semester, we definitely bit off more that we had time to complete! In the beginning, we devised a much more complex site than we ended up producing. I additionally filled the role of Product Manager, keeping our team on track with its goals and documenting progress via Pivotal Tracker.",
 	process1: "Using the Agile process, we developed user stories and used Pivotal Tracker to plan and develop our site. An example of one of our stories: As a female software engineer, so that I can find women in technology, I want a website that connects me to other women in tech.",
@@ -184,13 +190,14 @@ const data = {
 	process3: "",
 	tools: "Ruby on Rails, CSS, HAML, Cloud 9, Pivotal Tracker, Piazza, and Heroku.",
 	result: "Overall, the website turned out well with good functionality and we achieved all the goals outlined within our User Stories.",
+	pageimg3:[],
 	pageimg6: [
 		"../images/sisterweb2.png",
 		"../images/sisterweb1.png"
 		],
 	pageimg4: [],
 	site: "https://young-reef-29553.herokuapp.com/staticpages/home",
-	id: 1.1	
+	id: 1.001	
 }
 ],
   all: function() { return this.workcards},

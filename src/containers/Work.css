@@ -43,11 +43,8 @@ a {
     margin-bottom: 1.5em;
 }
 
-.page-header{
-    margin-top: 1.5em;
-    margin-bottom: 1em;
-    text-decoration: none;
-}
+
+
 
 img{
     border: solid 2px #737373;
@@ -68,6 +65,13 @@ img{
     box-shadow: none !important;
     background: white !important;
 }
+
+.page-header{
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    text-decoration: none;
+}
+
 
 .paragraph {
   margin-top: .75em;
