@@ -1,6 +1,15 @@
 const data_project = {
   project: [
 {   
+  project_title: "Shero",
+  dates: "(2018)",
+  description_1: "Developed and built Mentoring Site for Women Engineers",
+  description_2: "",
+  tech_stack: "Flask, Python, Jinja, Bootstrap, PostgreSQL, SQLAlchemy, jQuery, Faker",
+  github: "https://github.com/dmcdekker/hb_project", 
+  id: 4.008
+}, 
+{   
   project_title: "Jim Granato",
   dates: "(2017 - 2018)",
   description_1: "Developed and built professional portfolio website for filmmaker Jim Granato.",

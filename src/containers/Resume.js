@@ -13,8 +13,8 @@ const Resume = () => (
            <div className="tech-summary">
             <Media>
               <Media.Body>
-                  <Media.Heading className='media-heading'>Languages || <small>Python, Ruby, JavaScript (AJAX, JSON), HTML, CSS, SQL, Java, HAML, Jade</small></Media.Heading>
-                  <Media.Heading className='media-heading'>Frameworks and Libraries || <small>Flask, jQuery, Bootstrap, React, Angular, Ruby on Rails</small></Media.Heading>
+                  <Media.Heading className='media-heading'>Languages || <small>Python, Ruby, JavaScript (AJAX, JSON), HTML, CSS, SQL, Java, HAML, Jade, Jinja</small></Media.Heading>
+                  <Media.Heading className='media-heading'>Frameworks and Libraries || <small>Flask, Bootstrap, React, Angular, Ruby on Rails</small></Media.Heading>
                   <Media.Heading className='media-heading'>Database/Industry Tools || <small>PostgreSQL, Git, GitHub, Command Line</small></Media.Heading>
                   <Media.Heading className='media-heading'>Tools/Software || <small>Axure, Balsamiq, Adobe Creative Suite, Cloud 9</small></Media.Heading>
               </Media.Body>

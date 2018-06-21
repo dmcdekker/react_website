@@ -2,6 +2,25 @@ const data = {
   workcards: [
 {
 	img: "https://res.cloudinary.com/dmcdekker/image/upload/c_scale,h_430,w_648/v1520978395/stitcher_icon_eeyt9a.jpg",
+	name: "Shero",
+	type: "Product Development",
+	link: "shero",
+	number: 8.3,
+	project: "Shero: A Hackbright Project ",
+	challenges: "Connecting front end to back end was trickier than I thought!", 
+	process1: "Because I’m passionate about changing the ratio of women in engineering roles, I created an app where women could find a mentor or be a mentor, and find events to meet other women in tech.",
+	process2: "Users begin by registering; my DB model consists of 6 SQL tables that store user information. I’m using forms to submit user input using GET and POST requests that pass the data to the database via PostgreSQL. Once the profile has been created, users can login, which starts a session. They can view other pages and edit their own. Forms for updating information are hidden on the page load; users can click on the edit pencil, enter their updated information, submit, and the fields will update instantaneously. I used ajax so users can quickly and efficiently update their information. Once the updated information has been submitted by the user, data from the user is passed in a POST request, and is committed to the database, and is also jsonified so it can be displayed on the front end.",
+	process3: "In order to get some user data for my site, I used Faker and wrote some simple scripts to create variance in the data, which I plan to use to write a mentor/mentee matching algorithm. The events page uses the Eventbrite API and passes a location payload of SF Bay Area (for now). I used Python unittest to achieve 88% test coverage.",
+	tools: "Flask, Python, Jinja, Bootstrap, PostgreSQL, SQLAlchemy, jQuery, Faker",
+	result: "Overall am happy about the result; future plans include implementing a matching algorithm and the ability to star favorite events.",
+	pageimg3:[],
+	pageimg6:[],
+	pageimg4:[],	
+	site: "",
+	id: 1.010
+},  	
+{
+	img: "https://res.cloudinary.com/dmcdekker/image/upload/c_scale,h_430,w_648/v1520978395/stitcher_icon_eeyt9a.jpg",
 	name: "Stitcher Feature",
 	type: "Product Management",
 	link: "stitcher",
