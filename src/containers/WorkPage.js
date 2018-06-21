@@ -24,6 +24,18 @@ const WorkPage = (props) => {
         <img className="img-responsive" alt="images4" src={image} />
       </Col>    
     );
+    
+    const images3 = workpage.pageimg3.map(image =>
+      <Col md="3" key={image}>
+        <img className="img-responsive" alt="images3" src={image} />
+      </Col>    
+    );
+    
+    const images12 = workpage.pageimg12.map(image =>
+      <Col md="12" key={image}>
+        <img className="img-responsive" alt="images12" src={image} />
+      </Col>    
+    );
  
     return (
         <div className="App">
@@ -44,12 +56,17 @@ const WorkPage = (props) => {
             </Col>
             
             <Col md="12">
-              
               {images6}
             </Col>  
             <Col md="12">
               {images4}
             </Col>
+            <Col md="12">
+              {images3}
+            </Col>
+            <Col md="12">
+              {images12}
+            </Col> 
             
             <Col md="12">
                 <p className="paragraph">{workpage.result}</p>

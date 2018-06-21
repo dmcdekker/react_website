@@ -1,11 +1,11 @@
 const data = {
   workcards: [
 {
-	img: "https://res.cloudinary.com/dmcdekker/image/upload/c_scale,h_430,w_648/v1520978395/stitcher_icon_eeyt9a.jpg",
+	img: "../images/shero_card.png",
 	name: "Shero",
 	type: "Product Development",
 	link: "shero",
-	number: 8.3,
+	number: 9.2,
 	project: "Shero: A Hackbright Project ",
 	challenges: "Connecting front end to back end was trickier than I thought!", 
 	process1: "Because I’m passionate about changing the ratio of women in engineering roles, I created an app where women could find a mentor or be a mentor, and find events to meet other women in tech.",
@@ -14,11 +14,17 @@ const data = {
 	tools: "Flask, Python, Jinja, Bootstrap, PostgreSQL, SQLAlchemy, jQuery, Faker",
 	result: "Overall am happy about the result; future plans include implementing a matching algorithm and the ability to star favorite events.",
 	pageimg3:[],
-	pageimg6:[],
+	pageimg6: [],
+	pageimg12:[
+		"../images/shero_homepage.png",
+		"../images/shero_profilepage.png",
+		"../images/shero_events.png",
+		"../images/shero_profiles.png"
+		],
 	pageimg4:[],	
-	site: "",
+	site: "www.dmdekker.io",
 	id: 1.010
-},  	
+}, 
 {
 	img: "https://res.cloudinary.com/dmcdekker/image/upload/c_scale,h_430,w_648/v1520978395/stitcher_icon_eeyt9a.jpg",
 	name: "Stitcher Feature",
@@ -32,18 +38,18 @@ const data = {
 	process3: "Alternative ideas: Overhaul home/landing page: remove drawer and add navigation bar at the foot of the screen; send notification when friends Thumbs Up podcast; add notification in Friends Activity when friends Thumbs Up podcast; in Friends & Profile menu item add Recommended tab (alongside my Activity and Friends Activity tabs); add podcast items in reverse chronological order and send notification to friends.",
 	tools: "Axure",
 	result: "",
-	pageimg3:[
-		"../images/stitcher_1.png",
-		"../images/stitcher_3.png",
-		"../images/stitcher_2.png",	
-		],
+	pageimg12:[],
+	pageimg3:[],
 	pageimg6:[],
 	pageimg4:[
-		
+		"../images/stitcher_1.png",
+		"../images/stitcher_3.png",
+		"../images/stitcher_2.png"
 		],	
 	site: "https://zrkhja.axshare.com/home.html",
 	id: 1.009
-},  	
+},  		
+
 {
 	img: "https://res.cloudinary.com/dmcdekker/image/upload/c_scale,h_432,w_648/v1504041011/jim_card2_dkl0op.png",
 	name: "Jim Granato",
@@ -57,13 +63,15 @@ const data = {
 	process3: "",
 	tools: "Node.js, Express, Bootstrap, jQuery",
 	result: "I'm happy so far with the result, appearance, and functionality. We worked to get a MVP up (so Jim could have something to show prospective clients) and I'm currently working on making a template for the portfolio page, plus adding a blog and CMS so Jim can update the site on his own.",
-	pageimg3:[],
-	pageimg6:
-		[
-		"../images/jim_home.png",
+	pageimg12:[],
+	pageimg3:[
+			"../images/jim_home.png",
 		 "../images/jim_portfolio.png",
 		 "../images/jim_openmodal.png",
 		"../images/jim_dtour.png"
+		],
+	pageimg6:
+		[
 		],
 	pageimg4:[],	
 	site: "http://www.jimgranato.com/",
@@ -82,17 +90,16 @@ const data = {
 	process2: "Next, I evaluated 4Bells using heuristics and accessibility recommendations and pinpointed the components that needed to change, including: button placement and color, button color changes to indicate state change, ability to click through items and not only swipe, contrast between foreground and background, simple prompts, visual hint of orientation, direction through funneling, help menu, separation of screens, intuitive top-level information hierarchy, clearer delineation of routes to action, logical sequence of events/tab order, not allow user to navigate away while mid-task.  ",
 	process3: "In order to convey the feeling of a beginning, middle, and end, I propose clearer delineation of the tabs, with with tabs that change color to reflect orientation (this was repeated throughout the app for consistency), with tabbing in addition to swiping. Swiping is not a preferred feature for accessibility, as it can be rendered inoperable by assistive technology.  The redesigned screen view can be seen below (old on top and new on bottom).",
 	result: "After recruiting some target users to test my designs, I incorporated further changes to complete the first design iteration. Given the scope of this project, I recommend clicking the link below to read the formal design document, which contains more indepth information.",
-	pageimg3:[
+	pageimg12:[],
+	pageimg3:[],
+	pageimg6: [],
+	pageimg4:[
 		"../images/4bells_old1.png",
 		"../images/4bells_old2.png",
 		"../images/4bells_old3.png",
 		"../images/4bells_new1.png",
 		"../images/4bells_new2.png",
-		"../images/4bells_new3.png",
-	],
-	pageimg6: [
-		],
-	pageimg4:[],		
+		"../images/4bells_new3.png",],		
 	site: "https://docs.google.com/document/d/1DQ9gjJpd58RiUJH0he5hSAQ9GCVzVSUD7mGj5SytHhs/edit?usp=sharing",
 	id: 1.007	
 }, 
@@ -109,6 +116,7 @@ const data = {
 	process3: "",
 	tools: "React, CSS, HTML5, Cloud 9, Heroku, and Bootstrap.",
 	result: "I'm happy with the final result; it conveys a good sense of my aesthetic and showcases my emerging developer sensibilities and skillset. Press the button below to connect to my GitHub repository for this project.",
+	pageimg12:[],
 	pageimg3:[],
 	pageimg6: [
 		
@@ -131,6 +139,7 @@ const data = {
 	process3: "",
 	tools: "MongoDB, Express, Angular, Node.js, CSS, Jade, Cloud 9, Bootstrap, and Heroku, plus the Agile process to plan and develop our site.",
 	result: "Simple, clean, and functional! Given the current political climate, I wish that I had more time to develop this app more fully. If you're following the link to the live site, please not that the 'Find Your Congress Person' feature is no longer working.",
+	pageimg12:[],
 	pageimg3:[],
 	pageimg6: [],
 	pageimg4:[
@@ -156,16 +165,17 @@ const data = {
 	process3: "",
 	tools: "Android Studio.",
 	result: "The overall appearance is fine; I would liked to have spent more time with Android front end design and produced a more polished product. Clicking the link at the bottom of the page will connect you to the design document.",
-	pageimg3:[
-		"../images/fef_home_closed.png",
+	pageimg12:[],
+	pageimg3:[],
+	pageimg6: [],
+	pageimg4:[
+			"../images/fef_home_closed.png",
 		  "../images/fef_home_open.png",
 		  "../images/fef_recipe_search.png",
 		  "../images/fef_returned_recipes.png",
 		  "../images/fef_recipe_details.png",
 		  "../images/fef_recipe_link.png"
-		],
-	pageimg6: [],
-	pageimg4:[],	
+		],	
 	site: "https://docs.google.com/document/d/1CnLIujF6C1yfO51E0_8yWKwo4Gv2Z6WhusfCujLmW4c/edit?usp=sharing",
 	id: 1.004
 },
@@ -184,6 +194,7 @@ const data = {
 	process3: "",
 	tools: "Axure, Google Forms, Google draw-io, NinjaMock",
 	result: "After analysing and refining  wireframes, we created a high fidelity prototype using Axure and Wix, which enabled us to produce a high-fidelity, realistic prototype for user testing. Of all the methods, the prototype and user testing generated the most feedback for improvements to our site; for example, most users found that when they were browsing inventory, product information and buy now buttons were indistinguishable from each other. In addition to separating the buttons, we redesigned the page to make it easier for users to distinguish between the function of the buttons on the page by renaming them, changing the color, and placement. Also, users could click on a product’s image to view its details. During prototype testing, when we instructed testers to add a review, participants said they would normally click a review link provided in email, so we added the additional step of sending an email to the user containing the purchase information and a prompt to add a review of their purchases. In addition, we added a review button on the order confirmation page. Our initial prototype had viewers leave a review on the product detail page, which required a log in, so the last iteration enabled the user to write a review by clicking a link in the email.",
+	pageimg12:[],
 	pageimg3:[],
 	pageimg6: [
 		  "../images/sproutware1.jpg",
@@ -209,6 +220,7 @@ const data = {
 	process3: "",
 	tools: "Ruby on Rails, CSS, HAML, Cloud 9, Pivotal Tracker, Piazza, and Heroku.",
 	result: "Overall, the website turned out well with good functionality and we achieved all the goals outlined within our User Stories.",
+	pageimg12:[],
 	pageimg3:[],
 	pageimg6: [
 		"../images/sisterweb2.png",
