@@ -22,7 +22,7 @@ const data = {
 		"../images/shero_profiles.png"
 		],
 	pageimg4:[],	
-	site: "www.dmdekker.io",
+	site: "https://github.com/dmcdekker/hb_project/",
 	id: 1.010
 }, 
 {
